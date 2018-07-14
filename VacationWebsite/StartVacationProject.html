@@ -1,0 +1,109 @@
+<!Doctype html>
+<head>
+  <title>Dream Vacation</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css"/>
+  <link rel="stylesheet" type="text/css" href="VacationCSSStyles.css"/>
+</head>
+
+<body>
+
+<!-- Title and Secondary Title Elements -->
+
+  <div id = "banner">
+    <h1>Vacation Questionaire!</h1>
+  </div>
+
+  <h2>Fill out this quick survey to find out where you should go on your vacaction!</h2>
+
+<!-- Question Container -->
+
+  <div id = "question_container">
+    <div class = "question">
+      <label> Do you prefer warmer or colder climates?</label>
+      <button id ="climateQuestion">Submit</button>
+      <input id ="climateAnswer" type = "text" name = "Climate">
+      <p class=inputStyle id ="climatePrint">Answer not yet Complete!</p>
+    </div>
+
+    <div class = "question">
+      <label>Would you prefer to go outside the U.S or stay inside the country?</label>
+      <button id ="localQuestion">Submit</button>
+      <input id ="localAnswer" type = "text" name = "Local">
+      <p class=inputStyle id ="localPrint">Answer not yet Complete!</p>
+    </div>
+
+    <div class = "question">
+      <label>Would you like to go to an area with interesting wildlife?</label>
+      <button id ="wildlifeQuestion">Submit</button>
+      <input id ="wildlifeAnswer" type = "text" name = "Wildlife">
+      <p class=inputStyle id ="wildlifePrint">Answer not yet Complete!</p>
+    </div>
+
+
+    <div class = "question">
+      <label>Would you prefer a beach area or mountains?</label>
+      <button id ="terrainQuestion">Submit</button>
+      <input id ="terrainAnswer" type = "text" name = "Terrain">
+      <p class=inputStyle id ="terrainPrint">Answer not yet Complete!</p>
+    </div>
+
+    <div class = "question">
+      <label>What is your budget for the trip?</label>
+      <button id ="budgetQuestion">Submit</button>
+      <input id ="budgetAnswer" type = "text" name = "Budget">
+      <p class=inputStyle id ="budgetPrint">Answer not yet Complete!</p>
+    </div>
+
+    <div id = "result" class = "question">
+      <label>Your dream vacation questionaire is complete once you click here!</label>
+      <button id ="resultQuestion">Final Result</button>
+      <p class=inputStyle id = "resultFinal" >Your result is....</p>
+    </div>
+  </div>
+
+<!-- Result PopUps -->
+
+  <div id = "Canada" class ="question">
+    <p class = "popupVacation">You can visit the beautiful mountainous areas in Vancouver, Canada. Along with the
+      beautiful mountains there is plenty to do and many unique and interesting animals to come across.
+    </p>
+    <img class = "imgsPop" id = "Canada_Img" src = "imgs/The-Rocky-Mountains-Canada.jpg">
+  </div>
+
+  <div id = "Maryland" class ="question">
+    <p class = "popupVacation">You can visit the beachs in Maryland for a more local and inexpensive yet enjoyable time.
+    </p>
+    <img class = "imgsPop" id = "Maryland_Img" src = "imgs/Maryland.jpg">
+  </div>
+
+  <div id = "Tokyo" class ="question">
+    <p class = "popupVacation">You can visit Tokyo for both a mountain experience and the night life experience if you're willing to travel
+      outside the U.S.
+    </p>
+    <img class = "imgsPop" id = "Tokyo_Img" src = "imgs/TokyoSkyline.jpg">
+  </div>
+
+  <div id = "Greece" class ="question">
+    <p class = "popupVacation">You can visit Greece for it's impressive history and beautiful scenery.
+    </p>
+    <img class = "imgsPop" id = "Greece_Img" src = "imgs/GreecePic.jpg">
+  </div>
+
+  <div id = "Texas" class ="question">
+    <p class = "popupVacation">You can visit Texas for a good wholesome time and plenty of activities for the whole family.
+    </p>
+    <img class = "imgsPop" id = "Texas_Img" src = "imgs/Texas.jpg">
+  </div>
+
+  <div id = "Italy" class ="question">
+    <p class = "popupVacation">You can visit Italy for some of the most beautiful architecture and some of the tastiest treats!
+    </p>
+    <img class = "imgsPop" id = "Italy_Img" src = "imgs/Italy.jpg">
+  </div>
+
+  <script src="VacationJava.js"></script>
+</body>
+<footer class = "footer">
+  <small>Copyright@2018</small>
+</footer>
+</html>

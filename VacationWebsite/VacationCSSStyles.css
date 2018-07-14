@@ -1,0 +1,258 @@
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+
+
+/*Title and Secondary Title Information */
+}
+#banner {
+  background: radial-gradient(transparent, black),
+     url("imgs/StockBackground.jpg");
+  background-size: cover;
+  font-size: 75px;
+  text-align: center;
+  height: 2%;
+  width: 100%;
+  display: inline-block;
+  font-family: serif;
+  margin: auto;
+  margin-bottom: 35px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+h1 {
+  font-size: 75px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  display: inline-block;
+  font-family: sans-serif;
+  color: white;
+  margin: auto;
+  margin-bottom: 35px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  color: white;
+  font-size: 50px;
+  padding-left: 25px;
+  font-family: serif;
+  padding-bottom: 25px;
+}
+
+/*Questionaire Stylings */
+
+label {
+  font-size: 18px;
+}
+
+#question_container {
+  background-color: #014200;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 75%;
+  border: 5px solid white;
+  padding-bottom: 35px;
+  padding-top: 50px;
+}
+
+.question {
+  font-family: Helvetica;
+  color: white;
+  font-size: 15px;
+  padding-left: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+input {
+  display: inline-block;
+  float: right;
+  margin: 5px;
+  border-radius: 10%;
+  text-align: center;
+
+}
+
+button {
+  display: inline-block;
+  float: right;
+  background-color: #315b30;
+  color: white;
+  border-style: none;
+  padding: 12px;
+  float: right;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #48d845;
+}
+
+button:active {
+  background-color: yellow;
+}
+
+/*Classes for All PopUps */
+
+.popupVacation {
+  float: left;
+  width: 25%;
+  margin: auto;
+  margin-left: 350px;
+  padding-top: 80px;
+}
+.imgsPop {
+  float: right;
+  width: 25%;
+  margin: auto;
+  margin-right: 350px;
+  border: 2px solid white;
+}
+
+/*Ids for Individual PopUps */
+
+#Canada {
+  display: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#Maryland {
+  display:  none;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: auto;
+    margin-bottom: 50px;
+}
+
+#Tokyo {
+  display:  none;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#Greece {
+  display: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#Texas {
+  display: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#Italy {
+  display: none;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+footer {
+  position:fixed;
+  border-top: 1px solid;
+  border-color: white;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  color: white;
+  background:#014200;
+  text-align: center;
+}
+
+/*Media Queries*/
+
+@media(max-width: 768px) {
+
+    body {
+      background-color: black;
+    }
+    h1 {
+      font-size: 35px;
+    }
+    h2 {
+      font-size: 25px;
+      font-weight: bold;
+    }
+   label {
+     display: block;
+     font-size: 18px;
+     font-weight: bold;
+   }
+#question_container {
+     background-color: black;
+     width: 50%;
+     margin-left: auto;
+     text-align: center;
+     padding-left: 100px;
+     padding-right: 100px;
+   }
+.question {
+     display: grid;
+     font-family: Helvetica;
+     color: white;
+     font-size: 18px;
+     margin: auto;
+   }
+
+.popupVacation {
+    display: grid;
+     font-size: 18px;
+     width: 80%;
+     display: block;
+     text-align: center;
+     margin: 25px 50px 5px;
+   }
+
+.imgsPop {
+  display: grid;
+  float: left;
+  width: 50%;
+  margin: 30px 160px 5px;
+  border: 2px solid white;
+  }
+
+  input {
+     display: block;
+     float: left;
+     width: 100%;
+     margin-top: 20px;
+   }
+
+button {
+     font-size: 12px;
+     display: block;
+     width: 30%;
+     margin: 15px auto 4px;
+   }
+
+.inputStyle {
+     display: inline-block;
+   }
+}
