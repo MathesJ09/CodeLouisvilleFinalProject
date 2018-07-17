@@ -15,4 +15,6 @@ It has multiple CSS properties applied to each element.
 It meets all the requirements of the Front End Project in the above list. Although I definitely see the need for improvement in my skills I enjoyed 
 the experience and hope that I can come back to learn more.
 
+When answering the questions the answers must be lowercase at the moment. If the answer says it must be one or the other you must type in what your options are below including if the word is plural.
+
 Thank you.
