@@ -17,6 +17,6 @@ the experience and hope that I can come back to learn more.
 
 When answering the questions the answers must be lowercase at the moment. If the answer says it must be one or the other you must type in what your options are below including if the word is plural.
 
-In order to open this project you must copy the link and clone the project into Git Desktop. Then you can opne the project by opening up the html document in your web browser.
+In order to open this project you must copy the link and clone the project into Git Desktop. Then you can open the project by opening up the html document in your web browser. In order to view the code itself you can go to repository under Git Desktop and click view on Git Hub. You can view the HTML, CSS, and JavaScript files here.
 
 Thank you.
